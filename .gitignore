@@ -1,0 +1,78 @@
+# Игнорировать файлы Python
+*.pyc
+*.pyo
+__pycache__/
+*.swp
+*.swo
+.DS_Store
+
+# Игнорировать виртуальное окружение
+venv/
+env/
+.venv/
+.env/
+ENV/
+*.egg-info/
+dist/
+build/
+develop-eggs/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Игнорировать файлы Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb.bak
+*_files/
+
+# Игнорировать файлы PyTorch
+*.pth
+*.pt
+*.ckpt
+lightning_logs/
+
+# Игнорировать файлы Hugging Face Transformers
+.cache/huggingface/
+huggingface/tokenizers/
+huggingface/modules/
+models--*
+
+# Игнорировать файлы операционной системы
+._*
+*.log
+*~
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Игнорировать временные файлы
+tmp*
+temp*
+*log*
+
+# Игнорировать secrets/credentials
+secrets.ini
+credentials.json
+*.key
+*.pem
+
+# Игнорировать файлы .env (если они используются для хранения учетных данных)
+.env
+
+# Дополнительные игнорируемые файлы
+.vscode/
+.idea/
+.ropeproject/
+*.sqlite
+*.sqlite3
+
+predictions_LLM.csv
+test_bert_ner.csv
